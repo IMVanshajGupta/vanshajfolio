@@ -106,8 +106,8 @@ nav .menu-btn,
 .navbar .menu .cancel-btn {
   position: absolute;
   color: #fff;
-  right: 30px;
-  top: 20px;
+  right: 10px;
+  top: 30px;
   font-size: 20px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -540,7 +540,7 @@ footer .text span a:hover {
   }
 
   nav .navbar .media-icons {
-    display: none;
+    display: block;
   }
 
   nav .menu-btn,
