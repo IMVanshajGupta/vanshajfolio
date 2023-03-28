@@ -94,7 +94,7 @@ nav.sticky .menu a:hover {
 .navbar .media-icons a {
   color: #4070f4;
   font-size: 25px;
-  margin: 0 6px;
+  margin: 0 5px;
 }
 
 nav.sticky .media-icons a {
@@ -106,7 +106,7 @@ nav .menu-btn,
 .navbar .menu .cancel-btn {
   position: absolute;
   color: #fff;
-  right: 10px;
+  right: 5px;
   top: 30px;
   font-size: 20px;
   cursor: pointer;
