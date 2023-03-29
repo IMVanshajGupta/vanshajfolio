@@ -43,5 +43,8 @@ for (var i = 0; i < navLinks.length; i++) {
     menuBtn.style.pointerEvents = "auto";
   });
 }
-
-let topic = querySelectorAll("topic");
+//download CV button 
+let CVbtn = document.querySelector(".CVBtn");
+CVbtn.onclick = function () {
+window.open("resume.html");
+}
