@@ -106,9 +106,9 @@ nav .menu-btn,
 .navbar .menu .cancel-btn {
   position: absolute;
   color: #fff;
-  right: 5px;
-  top: 30px;
-  font-size: 20px;
+  right: 7px;
+  top: 25px;
+  font-size: 27px;
   cursor: pointer;
   transition: all 0.3s ease;
   display: none;
