@@ -43,8 +43,24 @@ for (var i = 0; i < navLinks.length; i++) {
     menuBtn.style.pointerEvents = "auto";
   });
 }
-//download CV button 
+
+// download cv button
 let CVbtn = document.querySelector(".CVBtn");
 CVbtn.onclick = function () {
-window.open("resume.html");
+  window.open("resume.html");
 }
+
+//hire me
+let hireBtn = document.querySelector(".hireBtn");
+hireBtn.onclick = function () {
+  window.open("https://www.linkedin.com/in/vanshajgupta01/");
+}
+
+//lets chat 
+let chatBtn = document.querySelector(".chatBtn");
+chatBtn.onclick = function () {
+  window.open("chat.html");
+}
+
+
+
