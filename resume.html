@@ -2,18 +2,23 @@
 <html>
 
 <head>
-    <title>itsmycv.in</title>
-    <link rel="stylesheet" href="style1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Viewer</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
 </head>
 
 <body>
-    <h1>Download CV</h1>
-    <div id="image-container">
-        <img src="images/background.png" alt="CV Photo">
-        <button id="download-btn">Download Image</button>
+    <div class="pdf-container">
+        <iframe src="images/Resume!.pdf" class="pdf-viewer"></iframe>
+        <div class="pdf-controls">
+            <a href="example.pdf" download class="pdf-download">Download PDF</a>
+        </div>
     </div>
+
     <script src="script1.js"></script>
 </body>
 
 </html>
+
 <!-- script1 and style1 -->
